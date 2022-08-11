@@ -393,35 +393,38 @@ body {
     gap: 30px;
 }
 
-.clients-item {
+.clients-link {
+    fill: #AFB1B8;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
+    border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.clients-item:hover {
+.clients-link:hover {
+    fill: #2196F3;
     border: 1px solid #2196F3;
 }
 
-.clients-icon {
-    fill: currentColor;
+/* .clients-icon {
+    fill: #AFB1B8;
     align-items: center;
     justify-content: center;
-}
+} */
 
-.clients-icon:hover,
+/* .clients-icon:hover,
 .clients-icon:focus {
     fill: #2196F3;
-}
+} */
 
 .clients-link {
     /* width: 28px;
     height: 32px; */
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 /* --------------footer------------ */
